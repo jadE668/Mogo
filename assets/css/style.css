@@ -27,14 +27,10 @@ hr {
     background-color: #e5e5e5;
 }
 
-
-/* Page */
 .page {
     overflow: hidden;
 }
 
-
-/* Container */
 .container {
     width: 100%;
     max-width: 1230px;
@@ -43,8 +39,6 @@ hr {
 }
 
 
-
-/* Intro */
 .intro {
     display: flex;
     flex-direction: column;
@@ -93,8 +87,6 @@ hr {
     color: #fff;
 }
 
-
-/* Header */
 .header {
     width: 100%;
     padding-top: 30px;
@@ -137,7 +129,6 @@ hr {
 }
 
 
-/* Nav */
 .nav {
     font-size: 14px;
     text-transform: uppercase;
@@ -186,7 +177,6 @@ hr {
 }
 
 
-/* Nav toggle */
 .nav-toggle {
     width: 30px;
     padding: 10px 0;
@@ -263,8 +253,6 @@ hr {
     transform: rotate(-45deg) translate3d(0px, 3px, 0);
 }
 
-
-/* Button */
 .btn {
     display: inline-block;
     vertical-align: top;
@@ -287,8 +275,6 @@ hr {
 }
 
 
-
-/* Slider */
 .slider {
     width: 100%;
 
@@ -340,7 +326,6 @@ hr {
 }
 
 
-/* Section */
 .section {
     padding: 80px 0;
 }
@@ -406,8 +391,6 @@ hr {
 }
 
 
-
-/* Card */
 .card {
     margin: 80px -15px 0;
     display: flex;
@@ -491,8 +474,6 @@ hr {
 }
 
 
-
-/* Statistics */
 .statistics {
     background-color: #95e1d3;
 }
@@ -530,8 +511,6 @@ hr {
 }
 
 
-/* Services */
-
 .services {
     display: flex;
     flex-wrap: wrap;
@@ -568,8 +547,6 @@ hr {
     color: #999;
 }
 
-/* Devices */
-
 .devices {
     width: 100%;
     max-width: 600px;
@@ -590,8 +567,6 @@ hr {
     z-index: 1;
 }
 
-
-/* We do */
 .wedo {
     display: flex;
     flex-wrap: wrap;
@@ -609,7 +584,6 @@ hr {
     height: auto;
 }
 
-/* Accordion */
 
 .accordion__item {
     margin-bottom: 10px;
@@ -680,8 +654,6 @@ hr {
 }
 
 
-
-/* Reviews */
 .reviews {
     position: relative;
 }
@@ -777,7 +749,6 @@ hr {
 }
 
 
-/* Social */
 .social {
     display: flex;
     justify-content: center;
@@ -809,7 +780,6 @@ hr {
 }
 
 
-/* Logos */
 .logos {
     display: flex;
     justify-content: space-between;
@@ -828,7 +798,6 @@ hr {
 }
 
 
-/* Works */
 .works {
     display: flex;
 }
@@ -890,8 +859,6 @@ hr {
 }
 
 
-
-/* Clients */
 .clients {
     display: flex;
     flex-wrap: wrap;
@@ -947,8 +914,6 @@ hr {
     background-color: #f38181;
 }
 
-
-/* Blog */
 
 .blog {
     display: flex;
@@ -1042,8 +1007,6 @@ hr {
 }
 
 
-/* Map */
-
 .map {
     text-align: center;
 }
@@ -1075,8 +1038,6 @@ hr {
 }
 
 
-
-/* Footer */
 .footer {
     padding-top: 65px;
 
@@ -1166,8 +1127,6 @@ hr {
 }
 
 
-
-/* Blogs */
 .blogs__item {
     display: flex;
     align-items: center;
@@ -1205,8 +1164,6 @@ hr {
     font-weight: 300;
 }
 
-
-/* Instagram */
 .instagram {
     display: flex;
     flex-wrap: wrap;
@@ -1225,7 +1182,6 @@ hr {
 }
 
 
-/* Subscribe */
 .subscribe {
     width: 100%;
     max-width: 380px;
@@ -1286,7 +1242,6 @@ hr {
 }
 
 
-/* Copyright */
 .copyright {
     padding: 20px 0;
 
@@ -1306,7 +1261,6 @@ hr {
 
 @media (max-width: 1230px) {
 
-    /* Intro */
     .intro__suptitle {
         font-size: 52px;
     }
@@ -1315,7 +1269,6 @@ hr {
         font-size: 120px;
     }
 
-    /* Reviews */
     .reviews__text {
         font-size: 20px;
     }
@@ -1323,7 +1276,6 @@ hr {
 
 @media (max-width: 990px) {
 
-    /* Intro */
     .intro__suptitle {
         font-size: 32px;
     }
@@ -1332,7 +1284,6 @@ hr {
         font-size: 80px;
     }
 
-    /* Stat */
     .stat {
         justify-content: center;
     }
@@ -1350,7 +1301,6 @@ hr {
         border-right: 0;
     }
 
-    /* Services */
     .services__item {
         width: 50%;
         padding-bottom: 0;
@@ -1360,7 +1310,6 @@ hr {
         border-bottom: 0;
     }
 
-    /* Reviews */
     .reviews .slick-slider {
         padding: 0 60px;
     }
@@ -1374,7 +1323,6 @@ hr {
         padding-left: 175px;
     }
 
-    /* Clients */
     .clients {
         max-width: 600px;
         margin: 0 auto;
@@ -1390,7 +1338,6 @@ hr {
     }
 
 
-    /* Footer */
     .footer__col--first {
         width: 100%;
     }
@@ -1400,7 +1347,6 @@ hr {
         width: 50%;
     }
 
-    /* Instagram */
     .instagram {
         justify-content: flex-start;
     }
@@ -1413,18 +1359,15 @@ hr {
 
 @media (max-width: 770px) {
 
-    /* Intro */
     .intro {
         min-height: 650px;
     }
 
 
-    /* Header */
     .header {
         padding: 10px 0;
     }
 
-    /* Nav */
     .nav {
         display: none;
         width: 100%;
@@ -1451,7 +1394,6 @@ hr {
     }
 
 
-    /* Section */
     .section {
         padding: 40px 0;
     }
@@ -1461,7 +1403,6 @@ hr {
     }
 
 
-    /* Card */
     .card {
         margin-top: 50px;
         justify-content: center;
@@ -1478,7 +1419,6 @@ hr {
     }
 
 
-    /* Slider */
     .slider__text {
         display: none;
     }
@@ -1487,7 +1427,6 @@ hr {
         width: 50%;
     }
 
-    /* Services */
     .services {
         justify-content: center;
     }
@@ -1504,7 +1443,6 @@ hr {
     }
 
 
-    /* Wedo */
     .wedo__img {
         display: none;
     }
@@ -1513,7 +1451,6 @@ hr {
         width: 100%;
     }
 
-    /* Reviews */
     .reviews__photo {
         position: static;
         margin: 0 auto 20px;
@@ -1531,7 +1468,6 @@ hr {
         font-size: 20px;
     }
 
-    /* Works */
     .works {
         flex-wrap: wrap;
     }
@@ -1541,7 +1477,6 @@ hr {
         width: 50%;
     }
 
-    /* Blog */
     .blog {
         max-width: 380px;
         margin: 0 auto;
@@ -1557,7 +1492,6 @@ hr {
     }
 
 
-    /* Footer */
     .footer__col--second,
     .footer__col--third {
         width: 100%;
@@ -1567,7 +1501,6 @@ hr {
 
 @media (max-width: 575px) {
 
-    /* Intro */
     .intro__suptitle {
         font-size: 22px;
     }
@@ -1576,7 +1509,6 @@ hr {
         font-size: 40px;
     }
 
-    /* Section */
     .section__header {
         margin-bottom: 50px;
     }
@@ -1593,7 +1525,6 @@ hr {
         margin: 20px auto;
     }
 
-    /* Stat */
     .stat__item {
         width: 100%;
 
@@ -1608,8 +1539,6 @@ hr {
         font-size: 52px;
     }
 
-
-    /* Devices */
     .devices {
         max-width: 320px;
     }
@@ -1620,8 +1549,6 @@ hr {
         right: -80px;
     }
 
-
-    /* Reviews */
     .reviews .slick-slider {
         padding: 0;
     }
@@ -1630,7 +1557,6 @@ hr {
         top: 18%;
     }
 
-    /* Logos */
     .logos {
         flex-wrap: wrap;
         justify-content: center;
@@ -1645,13 +1571,10 @@ hr {
         margin: 0 auto;
     }
 
-    /* Works */
     .works__col {
         width: 100%;
     }
 
-
-    /* Clients */
     .clients__photo {
         position: static;
     }
@@ -1665,8 +1588,6 @@ hr {
         margin: 15px auto;
     }
 
-
-    /* Blogs */
     .blogs__img {
         width: 80px;
         height: 50px;
@@ -1676,7 +1597,6 @@ hr {
         font-size: 10px;
     }
 
-    /* Subscribe */
     .subscribe {
         flex-wrap: wrap;
         max-width: none;

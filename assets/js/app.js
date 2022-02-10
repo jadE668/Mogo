@@ -5,7 +5,6 @@ $(function() {
         scrollOffset = $(window).scrollTop();
 
 
-    /* Fixed Header */
     checkScroll(scrollOffset);
 
     $(window).on("scroll", function() {
@@ -23,8 +22,6 @@ $(function() {
     }
 
 
-
-    /* Smooth scroll */
     $("[data-scroll]").on("click", function(event) {
         event.preventDefault();
 
@@ -41,8 +38,6 @@ $(function() {
     });
 
 
-
-    /* Menu nav toggle */
     $("#nav_toggle").on("click", function(event) {
         event.preventDefault();
 
@@ -51,8 +46,6 @@ $(function() {
     });
 
 
-
-    /* Collapse */
     $("[data-collapse]").on("click", function(event) {
         event.preventDefault();
 
@@ -63,7 +56,6 @@ $(function() {
     });
 
 
-    /* Slider */
     $("[data-slider]").slick({
         infinite: true,
         fade: false,
